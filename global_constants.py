@@ -1,8 +1,6 @@
 import os
 
 
-GOOGLE_TOKEN = 'AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw'
-
 ROOT_DIR = os.path.abspath(os.curdir)
 FILES_DIR = f'{ROOT_DIR}\\Data'
 
