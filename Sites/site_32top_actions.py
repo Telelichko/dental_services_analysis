@@ -1,11 +1,5 @@
-from global_constants import *
-from Helpers.driver_helper import *
 from Helpers import dom_helper
-from app_data import *
-
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from Models.app_data import *
 
 import time
 import requests

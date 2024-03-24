@@ -16,6 +16,10 @@ xpath_clinic_address = './/span[@data-qa="lpu_card_btn_addr_text"]'
 xpath_clinic_phone = './/span[@data-qa="lpu_card_btn_phone_text"]'
 xpath_count_doctors = './/div[@data-qa="lpu_card_subheading_doctors_count"]'
 
+xpath_doctor = '//div[@class="b-doctor-card__top"]'
+xpath_doctor_specialization = './/div[@class="b-doctor-card__spec"]'
+xpath_doctor_experience = './/div[@class="b-doctor-card__experience-years"]'
+
 xpath_header = './/h1'
 xpath_button_next = './/i[contains(@class, "ui-icon-arrow-right")]'
 

@@ -13,9 +13,9 @@ def write_text_to_file(text, file_name, file_extension):
         f.write(text)
 
 
-def read_file(file_name, file_extension):
+def read_file(file_name, file_extension='csv'):
     with open(f'{FILES_DIR}\\{file_name}.{file_extension}', 'r', encoding='utf-8') as f:
-        return ''.join(f.readlines())
+        return f.readlines()
 
 
 def read_json(file_name):

@@ -1,7 +1,7 @@
-import os
+import sys
+from pathlib import Path
 
-
-ROOT_DIR = os.path.abspath(os.curdir)
+ROOT_DIR = Path(sys.executable).resolve().parents[2]
 FILES_DIR = f'{ROOT_DIR}\\Data'
 
 URL_SITE_PRODOCTOROV = 'https://prodoctorov.ru/'
